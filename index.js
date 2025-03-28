@@ -12,7 +12,7 @@ app.listen(port,()=>{
 
 router.route("/")
     .get((req, res)=>{
-        res.render("../public/views/home.ejs");
+        res.render("index.ejs");
     });
 
 app.use(router);
